@@ -1,0 +1,31 @@
+_id: req_726e60090873437b87efc5331ad108b0
+type: Request
+parentId: fld_929aaea4720d4bc6a77aa509b947bbfe
+modified: 1677482120197
+created: 1677482026127
+url: "{{graphql_url}}"
+name: LocalDevice
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tLocalDevice
+    {\n\t\tid\n\t\tname\n\t\tcreateDateTime\n\t\trootDirs\n\t\tfavoriteDirs\n\t\tshareDirs\n\t}\n}\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_476b6ee7648c4867ac879f539bf3e5f6
+  - id: pair_2ff9d5548d8d492e80af2b5543e764b5
+    name: x-api-service
+    value: "{{service}}"
+    description: ""
+authentication: {}
+metaSortKey: -1677482026127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

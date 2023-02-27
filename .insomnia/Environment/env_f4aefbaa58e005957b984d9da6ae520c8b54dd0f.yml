@@ -1,0 +1,16 @@
+_id: env_f4aefbaa58e005957b984d9da6ae520c8b54dd0f
+type: Environment
+parentId: wrk_fe97a3064e0a4886adcd59790f7fc28d
+modified: 1677481995425
+created: 1677479919543
+name: Base Environment
+data:
+  graphql_url: "{{ scheme }}://{{ host }}:{{port}}/graphql"
+  service: client
+dataPropertyOrder:
+  "&":
+    - graphql_url
+    - service
+color: null
+isPrivate: false
+metaSortKey: 1677479919543

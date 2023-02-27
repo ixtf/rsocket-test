@@ -1,0 +1,18 @@
+_id: env_e153b785befe43e0a8134656be7f5dc3
+type: Environment
+parentId: env_f4aefbaa58e005957b984d9da6ae520c8b54dd0f
+modified: 1677481980129
+created: 1677481383806
+name: client
+data:
+  scheme: http
+  host: localhost
+  port: "16666"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - host
+    - port
+color: "#28f519"
+isPrivate: false
+metaSortKey: 1677481383806

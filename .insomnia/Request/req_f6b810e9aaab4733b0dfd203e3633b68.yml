@@ -1,0 +1,38 @@
+_id: req_f6b810e9aaab4733b0dfd203e3633b68
+type: Request
+parentId: fld_929aaea4720d4bc6a77aa509b947bbfe
+modified: 1677482607475
+created: 1677480577625
+url: "{{graphql_url}}"
+name: UpdateDevice
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation (\n\t$name: String!\n\t$rootDirs:
+    [String!]!\n\t$favoriteDirs: [String!]\n\t$shareDirs: [String!]\n)
+    {\n\tUpdateDevice(\n\t\tname: $name\n\t\trootDirs:
+    $rootDirs\n\t\tfavoriteDirs: $favoriteDirs\n\t\tshareDirs: $shareDirs\n\t)
+    {\n\t\tid\n\t\tname\n\t\trootDirs\n\t\tfavoriteDirs\n\t\tshareDirs\n\t}\n}\n","variables":{"name":"Local","rootDirs":["/home/jzb/Desktop"],"favoriteDirs":null,"shareDirs":null}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2088930be97346b7ab1050afea7edc35
+  - id: pair_9510ccd7eaa6490a87928030207ec8ae
+    name: x-api-service
+    value: "{{service}}"
+    description: ""
+  - id: pair_71d0034ac1014334b5b77b65e2b761c2
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1677481751662.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
